@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1800868F2091A8F100258D9E /* App42Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800867E2091A8F100258D9E /* App42Alert.m */; };
+		180086902091A8F100258D9E /* App42CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180086802091A8F100258D9E /* App42CustomView.m */; };
+		180086912091A8F100258D9E /* App42IAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180086822091A8F100258D9E /* App42IAMViewController.m */; };
+		180086922091A8F100258D9E /* App42Interstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 180086842091A8F100258D9E /* App42Interstitial.m */; };
+		180086932091A8F100258D9E /* App42InviteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180086862091A8F100258D9E /* App42InviteView.m */; };
+		180086942091A8F100258D9E /* App42PopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 180086882091A8F100258D9E /* App42PopUp.m */; };
+		180086952091A8F100258D9E /* App42SurveyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800868A2091A8F100258D9E /* App42SurveyForm.m */; };
+		180086962091A8F100258D9E /* InAppListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800868C2091A8F100258D9E /* InAppListener.m */; };
+		180086A82091CFF700258D9E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086992091CFF500258D9E /* back.png */; };
+		180086A92091CFF700258D9E /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1800869A2091CFF500258D9E /* back@2x.png */; };
+		180086AA2091CFF700258D9E /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1800869B2091CFF500258D9E /* back@3x.png */; };
+		180086AB2091CFF700258D9E /* BgImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1800869C2091CFF500258D9E /* BgImage.png */; };
+		180086AC2091CFF700258D9E /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1800869D2091CFF500258D9E /* config.json */; };
+		180086AD2091CFF700258D9E /* fb_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1800869E2091CFF500258D9E /* fb_120_120.png */; };
+		180086AE2091CFF700258D9E /* fb_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1800869F2091CFF500258D9E /* fb_60_60.png */; };
+		180086AF2091CFF700258D9E /* gift_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A02091CFF500258D9E /* gift_icon.png */; };
+		180086B02091CFF700258D9E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A12091CFF500258D9E /* Icon.png */; };
+		180086B12091CFF700258D9E /* mail_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A22091CFF500258D9E /* mail_120_120.png */; };
+		180086B22091CFF700258D9E /* mail_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A32091CFF500258D9E /* mail_60_60.png */; };
+		180086B32091CFF700258D9E /* twitter_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A42091CFF500258D9E /* twitter_120_120.png */; };
+		180086B42091CFF700258D9E /* twitter_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A52091CFF500258D9E /* twitter_60_60.png */; };
+		180086B52091CFF700258D9E /* whatsapp_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A62091CFF500258D9E /* whatsapp_120_120.png */; };
+		180086B62091CFF700258D9E /* whatsapp_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 180086A72091CFF500258D9E /* whatsapp_60_60.png */; };
+		5D0503CF209B02EE00568C65 /* App42_iOS_CampaignAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0503CE209B02EE00568C65 /* App42_iOS_CampaignAPI.framework */; };
+		5D32DB631F5E8E2200266B3D /* StocksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32DB621F5E8E2200266B3D /* StocksListViewController.m */; };
+		5D32DB641F5E91D300266B3D /* Shephertz_App42_iOS_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFDBDD1F5D5B360050F35D /* Shephertz_App42_iOS_API.framework */; };
+		5D32DB7C1F5E94B900266B3D /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB661F5E94B900266B3D /* add.png */; };
+		5D32DB7D1F5E94B900266B3D /* added.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB671F5E94B900266B3D /* added.png */; };
+		5D32DB7E1F5E94B900266B3D /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB681F5E94B900266B3D /* back_icon.png */; };
+		5D32DB7F1F5E94B900266B3D /* company_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB691F5E94B900266B3D /* company_icon.png */; };
+		5D32DB801F5E94B900266B3D /* email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6A1F5E94B900266B3D /* email_icon.png */; };
+		5D32DB811F5E94B900266B3D /* gra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6B1F5E94B900266B3D /* gra.png */; };
+		5D32DB821F5E94B900266B3D /* ic_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6C1F5E94B900266B3D /* ic_close.png */; };
+		5D32DB831F5E94B900266B3D /* icici.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6D1F5E94B900266B3D /* icici.png */; };
+		5D32DB841F5E94B900266B3D /* iifl_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6E1F5E94B900266B3D /* iifl_icon.png */; };
+		5D32DB851F5E94B900266B3D /* iifllogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB6F1F5E94B900266B3D /* iifllogo.png */; };
+		5D32DB861F5E94B900266B3D /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB701F5E94B900266B3D /* login.png */; };
+		5D32DB871F5E94B900266B3D /* login_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB711F5E94B900266B3D /* login_back.jpg */; };
+		5D32DB881F5E94B900266B3D /* logout_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB721F5E94B900266B3D /* logout_icon.png */; };
+		5D32DB891F5E94B900266B3D /* maruti_suzuki_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB731F5E94B900266B3D /* maruti_suzuki_icon.png */; };
+		5D32DB8A1F5E94B900266B3D /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB741F5E94B900266B3D /* menu_icon.png */; };
+		5D32DB8B1F5E94B900266B3D /* mywatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB751F5E94B900266B3D /* mywatch.png */; };
+		5D32DB8C1F5E94B900266B3D /* name_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB761F5E94B900266B3D /* name_icon.png */; };
+		5D32DB8D1F5E94B900266B3D /* ongc_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB771F5E94B900266B3D /* ongc_icon.png */; };
+		5D32DB8E1F5E94B900266B3D /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB781F5E94B900266B3D /* password_icon.png */; };
+		5D32DB8F1F5E94B900266B3D /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB791F5E94B900266B3D /* refresh.png */; };
+		5D32DB901F5E94B900266B3D /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB7A1F5E94B900266B3D /* register.png */; };
+		5D32DB911F5E94B900266B3D /* tata.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DB7B1F5E94B900266B3D /* tata.png */; };
+		5D32DB941F5EA04000266B3D /* StocksListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32DB931F5EA04000266B3D /* StocksListTableViewCell.m */; };
+		5D32DB971F5EAA1F00266B3D /* StockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32DB961F5EAA1F00266B3D /* StockDetailViewController.m */; };
+		5D32DB9A1F5EBF4800266B3D /* MyStocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32DB991F5EBF4800266B3D /* MyStocksViewController.m */; };
+		5D32DBA01F5ECEEA00266B3D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32DB9F1F5ECEEA00266B3D /* LoginViewController.m */; };
+		5D32DBA21F5ED81600266B3D /* 120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D32DBA11F5ED81600266B3D /* 120px.png */; };
+		5D8CC64A1F5954D400F320B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6491F5954D400F320B2 /* main.m */; };
+		5D8CC64D1F5954D400F320B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC64C1F5954D400F320B2 /* AppDelegate.m */; };
+		5D8CC6501F5954D400F320B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC64F1F5954D400F320B2 /* ViewController.m */; };
+		5D8CC6531F5954D500F320B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC6511F5954D500F320B2 /* Main.storyboard */; };
+		5D8CC6551F5954D500F320B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC6541F5954D500F320B2 /* Assets.xcassets */; };
+		5D8CC6581F5954D500F320B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC6561F5954D500F320B2 /* LaunchScreen.storyboard */; };
+		5D8CC6631F5954D600F320B2 /* Kotak_Wealth_Watch_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6621F5954D600F320B2 /* Kotak_Wealth_Watch_AppTests.m */; };
+		5D8CC6681F5954D600F320B2 /* HDFC Securities WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5D8CC6671F5954D600F320B2 /* HDFC Securities WatchKit App.app */; };
+		5D8CC66E1F5954D600F320B2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC66C1F5954D600F320B2 /* Interface.storyboard */; };
+		5D8CC6701F5954D600F320B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC66F1F5954D600F320B2 /* Assets.xcassets */; };
+		5D8CC6771F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D8CC6761F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D8CC67F1F5954D600F320B2 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC67E1F5954D600F320B2 /* InterfaceController.m */; };
+		5D8CC6821F5954D600F320B2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6811F5954D600F320B2 /* ExtensionDelegate.m */; };
+		5D8CC6851F5954D600F320B2 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6841F5954D600F320B2 /* NotificationController.m */; };
+		5D8CC6881F5954D600F320B2 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6871F5954D600F320B2 /* ComplicationController.m */; };
+		5D8CC68A1F5954D600F320B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CC6891F5954D600F320B2 /* Assets.xcassets */; };
+		5D8CC6A11F595FAE00F320B2 /* TableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CC6A01F595FAE00F320B2 /* TableRowController.m */; };
+		5D8D39891F601FA0004334C0 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D39881F601FA0004334C0 /* NotificationService.m */; };
+		5D8D398D1F601FA0004334C0 /* KWNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D8D39851F601F9F004334C0 /* KWNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D9D17331F5FE4A8009A4232 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9D17321F5FE4A8009A4232 /* graph.png */; };
+		5DB6294F2099C3FF004FB91B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6294E2099C3FF004FB91B /* ProfileViewController.m */; };
+		5DB629512099C44F004FB91B /* userProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB629502099C44F004FB91B /* userProfile.png */; };
+		5DBFDBDC1F5D5B2D0050F35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFDBDB1F5D5B2D0050F35D /* Foundation.framework */; };
+		5DBFDBE01F5D5D5B0050F35D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFDBDF1F5D5D5B0050F35D /* UserNotifications.framework */; };
+		5DBFDBE21F5D5D8D0050F35D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFDBE11F5D5D8D0050F35D /* CoreTelephony.framework */; };
+		5DBFDBE41F5D5DC50050F35D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFDBE31F5D5DC50050F35D /* SystemConfiguration.framework */; };
+		5DE58C4A2046811700EF6A39 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE58C472046811600EF6A39 /* close@2x.png */; };
+		5DE58C4B2046811700EF6A39 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE58C482046811600EF6A39 /* close@3x.png */; };
+		5DE58C4C2046811700EF6A39 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE58C492046811700EF6A39 /* close.png */; };
+		5DE58C4F20469F7500EF6A39 /* hfc-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE58C4E20469F7500EF6A39 /* hfc-app-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D8CC65F1F5954D600F320B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8CC63D1F5954D300F320B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8CC6441F5954D400F320B2;
+			remoteInfo = "Kotak Wealth Watch App";
+		};
+		5D8CC6691F5954D600F320B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8CC63D1F5954D300F320B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8CC6661F5954D600F320B2;
+			remoteInfo = "Kotak Wealth Watch App WatchKit App";
+		};
+		5D8CC6781F5954D600F320B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8CC63D1F5954D300F320B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8CC6751F5954D600F320B2;
+			remoteInfo = "Kotak Wealth Watch App WatchKit Extension";
+		};
+		5D8D398B1F601FA0004334C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8CC63D1F5954D300F320B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8D39841F601F9F004334C0;
+			remoteInfo = KWNotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D8CC6911F5954D600F320B2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D8CC6771F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6951F5954D600F320B2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5D8CC6681F5954D600F320B2 /* HDFC Securities WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D39911F601FA0004334C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D8D398D1F601FA0004334C0 /* KWNotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1800867D2091A8F100258D9E /* App42Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42Alert.h; sourceTree = "<group>"; };
+		1800867E2091A8F100258D9E /* App42Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42Alert.m; sourceTree = "<group>"; };
+		1800867F2091A8F100258D9E /* App42CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42CustomView.h; sourceTree = "<group>"; };
+		180086802091A8F100258D9E /* App42CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42CustomView.m; sourceTree = "<group>"; };
+		180086812091A8F100258D9E /* App42IAMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42IAMViewController.h; sourceTree = "<group>"; };
+		180086822091A8F100258D9E /* App42IAMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42IAMViewController.m; sourceTree = "<group>"; };
+		180086832091A8F100258D9E /* App42Interstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42Interstitial.h; sourceTree = "<group>"; };
+		180086842091A8F100258D9E /* App42Interstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42Interstitial.m; sourceTree = "<group>"; };
+		180086852091A8F100258D9E /* App42InviteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42InviteView.h; sourceTree = "<group>"; };
+		180086862091A8F100258D9E /* App42InviteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42InviteView.m; sourceTree = "<group>"; };
+		180086872091A8F100258D9E /* App42PopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42PopUp.h; sourceTree = "<group>"; };
+		180086882091A8F100258D9E /* App42PopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42PopUp.m; sourceTree = "<group>"; };
+		180086892091A8F100258D9E /* App42SurveyForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App42SurveyForm.h; sourceTree = "<group>"; };
+		1800868A2091A8F100258D9E /* App42SurveyForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App42SurveyForm.m; sourceTree = "<group>"; };
+		1800868B2091A8F100258D9E /* InAppListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppListener.h; sourceTree = "<group>"; };
+		1800868C2091A8F100258D9E /* InAppListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppListener.m; sourceTree = "<group>"; };
+		180086992091CFF500258D9E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1800869A2091CFF500258D9E /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		1800869B2091CFF500258D9E /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		1800869C2091CFF500258D9E /* BgImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BgImage.png; sourceTree = "<group>"; };
+		1800869D2091CFF500258D9E /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		1800869E2091CFF500258D9E /* fb_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_120_120.png; sourceTree = "<group>"; };
+		1800869F2091CFF500258D9E /* fb_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_60_60.png; sourceTree = "<group>"; };
+		180086A02091CFF500258D9E /* gift_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_icon.png; sourceTree = "<group>"; };
+		180086A12091CFF500258D9E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		180086A22091CFF500258D9E /* mail_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_120_120.png; sourceTree = "<group>"; };
+		180086A32091CFF500258D9E /* mail_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_60_60.png; sourceTree = "<group>"; };
+		180086A42091CFF500258D9E /* twitter_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_120_120.png; sourceTree = "<group>"; };
+		180086A52091CFF500258D9E /* twitter_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_60_60.png; sourceTree = "<group>"; };
+		180086A62091CFF500258D9E /* whatsapp_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsapp_120_120.png; sourceTree = "<group>"; };
+		180086A72091CFF500258D9E /* whatsapp_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsapp_60_60.png; sourceTree = "<group>"; };
+		5D0503CE209B02EE00568C65 /* App42_iOS_CampaignAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App42_iOS_CampaignAPI.framework; sourceTree = "<group>"; };
+		5D32DB611F5E8E2200266B3D /* StocksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StocksListViewController.h; sourceTree = "<group>"; };
+		5D32DB621F5E8E2200266B3D /* StocksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StocksListViewController.m; sourceTree = "<group>"; };
+		5D32DB661F5E94B900266B3D /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		5D32DB671F5E94B900266B3D /* added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = added.png; sourceTree = "<group>"; };
+		5D32DB681F5E94B900266B3D /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		5D32DB691F5E94B900266B3D /* company_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company_icon.png; sourceTree = "<group>"; };
+		5D32DB6A1F5E94B900266B3D /* email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_icon.png; sourceTree = "<group>"; };
+		5D32DB6B1F5E94B900266B3D /* gra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gra.png; sourceTree = "<group>"; };
+		5D32DB6C1F5E94B900266B3D /* ic_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_close.png; sourceTree = "<group>"; };
+		5D32DB6D1F5E94B900266B3D /* icici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icici.png; sourceTree = "<group>"; };
+		5D32DB6E1F5E94B900266B3D /* iifl_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iifl_icon.png; sourceTree = "<group>"; };
+		5D32DB6F1F5E94B900266B3D /* iifllogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iifllogo.png; sourceTree = "<group>"; };
+		5D32DB701F5E94B900266B3D /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		5D32DB711F5E94B900266B3D /* login_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_back.jpg; sourceTree = "<group>"; };
+		5D32DB721F5E94B900266B3D /* logout_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout_icon.png; sourceTree = "<group>"; };
+		5D32DB731F5E94B900266B3D /* maruti_suzuki_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maruti_suzuki_icon.png; sourceTree = "<group>"; };
+		5D32DB741F5E94B900266B3D /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		5D32DB751F5E94B900266B3D /* mywatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mywatch.png; sourceTree = "<group>"; };
+		5D32DB761F5E94B900266B3D /* name_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name_icon.png; sourceTree = "<group>"; };
+		5D32DB771F5E94B900266B3D /* ongc_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ongc_icon.png; sourceTree = "<group>"; };
+		5D32DB781F5E94B900266B3D /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_icon.png; sourceTree = "<group>"; };
+		5D32DB791F5E94B900266B3D /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		5D32DB7A1F5E94B900266B3D /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register.png; sourceTree = "<group>"; };
+		5D32DB7B1F5E94B900266B3D /* tata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tata.png; sourceTree = "<group>"; };
+		5D32DB921F5EA04000266B3D /* StocksListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StocksListTableViewCell.h; sourceTree = "<group>"; };
+		5D32DB931F5EA04000266B3D /* StocksListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StocksListTableViewCell.m; sourceTree = "<group>"; };
+		5D32DB951F5EAA1F00266B3D /* StockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetailViewController.h; sourceTree = "<group>"; };
+		5D32DB961F5EAA1F00266B3D /* StockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetailViewController.m; sourceTree = "<group>"; };
+		5D32DB981F5EBF4800266B3D /* MyStocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStocksViewController.h; sourceTree = "<group>"; };
+		5D32DB991F5EBF4800266B3D /* MyStocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStocksViewController.m; sourceTree = "<group>"; };
+		5D32DB9E1F5ECEEA00266B3D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5D32DB9F1F5ECEEA00266B3D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5D32DBA11F5ED81600266B3D /* 120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120px.png; sourceTree = "<group>"; };
+		5D8CC6451F5954D400F320B2 /* HDFC Securities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HDFC Securities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8CC6491F5954D400F320B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D8CC64B1F5954D400F320B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D8CC64C1F5954D400F320B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D8CC64E1F5954D400F320B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D8CC64F1F5954D400F320B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D8CC6521F5954D500F320B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D8CC6541F5954D500F320B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8CC6571F5954D500F320B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D8CC6591F5954D500F320B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8CC65E1F5954D600F320B2 /* HDFC SecuritiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HDFC SecuritiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8CC6621F5954D600F320B2 /* Kotak_Wealth_Watch_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kotak_Wealth_Watch_AppTests.m; sourceTree = "<group>"; };
+		5D8CC6641F5954D600F320B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8CC6671F5954D600F320B2 /* HDFC Securities WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HDFC Securities WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8CC66D1F5954D600F320B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5D8CC66F1F5954D600F320B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8CC6711F5954D600F320B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8CC6761F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HDFC Securities WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8CC67C1F5954D600F320B2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5D8CC67D1F5954D600F320B2 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5D8CC67E1F5954D600F320B2 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5D8CC6801F5954D600F320B2 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		5D8CC6811F5954D600F320B2 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		5D8CC6831F5954D600F320B2 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		5D8CC6841F5954D600F320B2 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		5D8CC6861F5954D600F320B2 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		5D8CC6871F5954D600F320B2 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		5D8CC6891F5954D600F320B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8CC68B1F5954D600F320B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8CC69F1F595FAE00F320B2 /* TableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowController.h; sourceTree = "<group>"; };
+		5D8CC6A01F595FAE00F320B2 /* TableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowController.m; sourceTree = "<group>"; };
+		5D8D39851F601F9F004334C0 /* KWNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KWNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8D39871F601FA0004334C0 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		5D8D39881F601FA0004334C0 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		5D8D398A1F601FA0004334C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9D17321F5FE4A8009A4232 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		5DB6294D2099C3FF004FB91B /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5DB6294E2099C3FF004FB91B /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5DB629502099C44F004FB91B /* userProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userProfile.png; sourceTree = "<group>"; };
+		5DBFDBDB1F5D5B2D0050F35D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DBFDBDD1F5D5B360050F35D /* Shephertz_App42_iOS_API.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shephertz_App42_iOS_API.framework; sourceTree = "<group>"; };
+		5DBFDBDF1F5D5D5B0050F35D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		5DBFDBE11F5D5D8D0050F35D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5DBFDBE31F5D5DC50050F35D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5DE58C472046811600EF6A39 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		5DE58C482046811600EF6A39 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		5DE58C492046811700EF6A39 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		5DE58C4D20469D3500EF6A39 /* HDFC Securities.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HDFC Securities.entitlements"; sourceTree = "<group>"; };
+		5DE58C4E20469F7500EF6A39 /* hfc-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hfc-app-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D32DB5F1F5E74D200266B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6421F5954D400F320B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0503CF209B02EE00568C65 /* App42_iOS_CampaignAPI.framework in Frameworks */,
+				5D32DB641F5E91D300266B3D /* Shephertz_App42_iOS_API.framework in Frameworks */,
+				5DBFDBE41F5D5DC50050F35D /* SystemConfiguration.framework in Frameworks */,
+				5DBFDBE21F5D5D8D0050F35D /* CoreTelephony.framework in Frameworks */,
+				5DBFDBE01F5D5D5B0050F35D /* UserNotifications.framework in Frameworks */,
+				5DBFDBDC1F5D5B2D0050F35D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC65B1F5954D600F320B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6731F5954D600F320B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D39821F601F9F004334C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1800867B2091A8F100258D9E /* App42CampaignLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				180086982091CFF500258D9E /* ChannelResource */,
+				1800867C2091A8F100258D9E /* App42InAppViews */,
+			);
+			path = App42CampaignLibraries;
+			sourceTree = "<group>";
+		};
+		1800867C2091A8F100258D9E /* App42InAppViews */ = {
+			isa = PBXGroup;
+			children = (
+				1800867D2091A8F100258D9E /* App42Alert.h */,
+				1800867E2091A8F100258D9E /* App42Alert.m */,
+				1800867F2091A8F100258D9E /* App42CustomView.h */,
+				180086802091A8F100258D9E /* App42CustomView.m */,
+				180086812091A8F100258D9E /* App42IAMViewController.h */,
+				180086822091A8F100258D9E /* App42IAMViewController.m */,
+				180086832091A8F100258D9E /* App42Interstitial.h */,
+				180086842091A8F100258D9E /* App42Interstitial.m */,
+				180086852091A8F100258D9E /* App42InviteView.h */,
+				180086862091A8F100258D9E /* App42InviteView.m */,
+				180086872091A8F100258D9E /* App42PopUp.h */,
+				180086882091A8F100258D9E /* App42PopUp.m */,
+				180086892091A8F100258D9E /* App42SurveyForm.h */,
+				1800868A2091A8F100258D9E /* App42SurveyForm.m */,
+				1800868B2091A8F100258D9E /* InAppListener.h */,
+				1800868C2091A8F100258D9E /* InAppListener.m */,
+			);
+			path = App42InAppViews;
+			sourceTree = "<group>";
+		};
+		180086982091CFF500258D9E /* ChannelResource */ = {
+			isa = PBXGroup;
+			children = (
+				180086992091CFF500258D9E /* back.png */,
+				1800869A2091CFF500258D9E /* back@2x.png */,
+				1800869B2091CFF500258D9E /* back@3x.png */,
+				1800869C2091CFF500258D9E /* BgImage.png */,
+				1800869D2091CFF500258D9E /* config.json */,
+				1800869E2091CFF500258D9E /* fb_120_120.png */,
+				1800869F2091CFF500258D9E /* fb_60_60.png */,
+				180086A02091CFF500258D9E /* gift_icon.png */,
+				180086A12091CFF500258D9E /* Icon.png */,
+				180086A22091CFF500258D9E /* mail_120_120.png */,
+				180086A32091CFF500258D9E /* mail_60_60.png */,
+				180086A42091CFF500258D9E /* twitter_120_120.png */,
+				180086A52091CFF500258D9E /* twitter_60_60.png */,
+				180086A62091CFF500258D9E /* whatsapp_120_120.png */,
+				180086A72091CFF500258D9E /* whatsapp_60_60.png */,
+			);
+			path = ChannelResource;
+			sourceTree = "<group>";
+		};
+		5D32DB651F5E94B900266B3D /* iCons */ = {
+			isa = PBXGroup;
+			children = (
+				5DB629502099C44F004FB91B /* userProfile.png */,
+				5DE58C492046811700EF6A39 /* close.png */,
+				5DE58C472046811600EF6A39 /* close@2x.png */,
+				5DE58C482046811600EF6A39 /* close@3x.png */,
+				5D9D17321F5FE4A8009A4232 /* graph.png */,
+				5D32DB661F5E94B900266B3D /* add.png */,
+				5D32DB671F5E94B900266B3D /* added.png */,
+				5D32DB681F5E94B900266B3D /* back_icon.png */,
+				5D32DB691F5E94B900266B3D /* company_icon.png */,
+				5D32DB6A1F5E94B900266B3D /* email_icon.png */,
+				5D32DB6B1F5E94B900266B3D /* gra.png */,
+				5D32DB6C1F5E94B900266B3D /* ic_close.png */,
+				5D32DB6D1F5E94B900266B3D /* icici.png */,
+				5D32DB6E1F5E94B900266B3D /* iifl_icon.png */,
+				5D32DB6F1F5E94B900266B3D /* iifllogo.png */,
+				5D32DB701F5E94B900266B3D /* login.png */,
+				5D32DB711F5E94B900266B3D /* login_back.jpg */,
+				5D32DB721F5E94B900266B3D /* logout_icon.png */,
+				5D32DB731F5E94B900266B3D /* maruti_suzuki_icon.png */,
+				5D32DB741F5E94B900266B3D /* menu_icon.png */,
+				5D32DB751F5E94B900266B3D /* mywatch.png */,
+				5D32DB761F5E94B900266B3D /* name_icon.png */,
+				5D32DB771F5E94B900266B3D /* ongc_icon.png */,
+				5D32DB781F5E94B900266B3D /* password_icon.png */,
+				5D32DB791F5E94B900266B3D /* refresh.png */,
+				5D32DB7A1F5E94B900266B3D /* register.png */,
+				5D32DB7B1F5E94B900266B3D /* tata.png */,
+			);
+			path = iCons;
+			sourceTree = "<group>";
+		};
+		5D8CC63C1F5954D300F320B2 = {
+			isa = PBXGroup;
+			children = (
+				5D8CC6471F5954D400F320B2 /* HDFC Securities */,
+				5D8CC6611F5954D600F320B2 /* HDFC SecuritiesTests */,
+				5D8CC66B1F5954D600F320B2 /* HDFC Securities WatchKit App */,
+				5D8CC67A1F5954D600F320B2 /* HDFC Securities WatchKit Extension */,
+				5D8D39861F601FA0004334C0 /* KWNotificationService */,
+				5D8CC6461F5954D400F320B2 /* Products */,
+				5DBFDBDA1F5D5B2D0050F35D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8CC6461F5954D400F320B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC6451F5954D400F320B2 /* HDFC Securities.app */,
+				5D8CC65E1F5954D600F320B2 /* HDFC SecuritiesTests.xctest */,
+				5D8CC6671F5954D600F320B2 /* HDFC Securities WatchKit App.app */,
+				5D8CC6761F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex */,
+				5D8D39851F601F9F004334C0 /* KWNotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8CC6471F5954D400F320B2 /* HDFC Securities */ = {
+			isa = PBXGroup;
+			children = (
+				1800867B2091A8F100258D9E /* App42CampaignLibraries */,
+				5DE58C4D20469D3500EF6A39 /* HDFC Securities.entitlements */,
+				5DE58C4E20469F7500EF6A39 /* hfc-app-icon.png */,
+				5D32DBA11F5ED81600266B3D /* 120px.png */,
+				5D32DB651F5E94B900266B3D /* iCons */,
+				5D8CC64B1F5954D400F320B2 /* AppDelegate.h */,
+				5D8CC64C1F5954D400F320B2 /* AppDelegate.m */,
+				5D8CC64E1F5954D400F320B2 /* ViewController.h */,
+				5D8CC64F1F5954D400F320B2 /* ViewController.m */,
+				5D8CC6511F5954D500F320B2 /* Main.storyboard */,
+				5D8CC6541F5954D500F320B2 /* Assets.xcassets */,
+				5D8CC6561F5954D500F320B2 /* LaunchScreen.storyboard */,
+				5D8CC6591F5954D500F320B2 /* Info.plist */,
+				5D8CC6481F5954D400F320B2 /* Supporting Files */,
+				5D32DB611F5E8E2200266B3D /* StocksListViewController.h */,
+				5D32DB621F5E8E2200266B3D /* StocksListViewController.m */,
+				5D32DB921F5EA04000266B3D /* StocksListTableViewCell.h */,
+				5D32DB931F5EA04000266B3D /* StocksListTableViewCell.m */,
+				5D32DB951F5EAA1F00266B3D /* StockDetailViewController.h */,
+				5D32DB961F5EAA1F00266B3D /* StockDetailViewController.m */,
+				5D32DB981F5EBF4800266B3D /* MyStocksViewController.h */,
+				5D32DB991F5EBF4800266B3D /* MyStocksViewController.m */,
+				5D32DB9E1F5ECEEA00266B3D /* LoginViewController.h */,
+				5D32DB9F1F5ECEEA00266B3D /* LoginViewController.m */,
+				5DB6294D2099C3FF004FB91B /* ProfileViewController.h */,
+				5DB6294E2099C3FF004FB91B /* ProfileViewController.m */,
+			);
+			path = "HDFC Securities";
+			sourceTree = "<group>";
+		};
+		5D8CC6481F5954D400F320B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC6491F5954D400F320B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D8CC6611F5954D600F320B2 /* HDFC SecuritiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC6621F5954D600F320B2 /* Kotak_Wealth_Watch_AppTests.m */,
+				5D8CC6641F5954D600F320B2 /* Info.plist */,
+			);
+			path = "HDFC SecuritiesTests";
+			sourceTree = "<group>";
+		};
+		5D8CC66B1F5954D600F320B2 /* HDFC Securities WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC66C1F5954D600F320B2 /* Interface.storyboard */,
+				5D8CC66F1F5954D600F320B2 /* Assets.xcassets */,
+				5D8CC6711F5954D600F320B2 /* Info.plist */,
+			);
+			path = "HDFC Securities WatchKit App";
+			sourceTree = "<group>";
+		};
+		5D8CC67A1F5954D600F320B2 /* HDFC Securities WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC67D1F5954D600F320B2 /* InterfaceController.h */,
+				5D8CC67E1F5954D600F320B2 /* InterfaceController.m */,
+				5D8CC6801F5954D600F320B2 /* ExtensionDelegate.h */,
+				5D8CC6811F5954D600F320B2 /* ExtensionDelegate.m */,
+				5D8CC6831F5954D600F320B2 /* NotificationController.h */,
+				5D8CC6841F5954D600F320B2 /* NotificationController.m */,
+				5D8CC6861F5954D600F320B2 /* ComplicationController.h */,
+				5D8CC6871F5954D600F320B2 /* ComplicationController.m */,
+				5D8CC6891F5954D600F320B2 /* Assets.xcassets */,
+				5D8CC68B1F5954D600F320B2 /* Info.plist */,
+				5D8CC67B1F5954D600F320B2 /* Supporting Files */,
+				5D8CC69F1F595FAE00F320B2 /* TableRowController.h */,
+				5D8CC6A01F595FAE00F320B2 /* TableRowController.m */,
+			);
+			path = "HDFC Securities WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5D8CC67B1F5954D600F320B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CC67C1F5954D600F320B2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D8D39861F601FA0004334C0 /* KWNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				5D8D39871F601FA0004334C0 /* NotificationService.h */,
+				5D8D39881F601FA0004334C0 /* NotificationService.m */,
+				5D8D398A1F601FA0004334C0 /* Info.plist */,
+			);
+			path = KWNotificationService;
+			sourceTree = "<group>";
+		};
+		5DBFDBDA1F5D5B2D0050F35D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0503CE209B02EE00568C65 /* App42_iOS_CampaignAPI.framework */,
+				5DBFDBE31F5D5DC50050F35D /* SystemConfiguration.framework */,
+				5DBFDBE11F5D5D8D0050F35D /* CoreTelephony.framework */,
+				5DBFDBDF1F5D5D5B0050F35D /* UserNotifications.framework */,
+				5DBFDBDD1F5D5B360050F35D /* Shephertz_App42_iOS_API.framework */,
+				5DBFDBDB1F5D5B2D0050F35D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8CC6441F5954D400F320B2 /* HDFC Securities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8CC6961F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities" */;
+			buildPhases = (
+				5D8CC6411F5954D400F320B2 /* Sources */,
+				5D8CC6421F5954D400F320B2 /* Frameworks */,
+				5D8CC6431F5954D400F320B2 /* Resources */,
+				5D8CC6951F5954D600F320B2 /* Embed Watch Content */,
+				5D8D39911F601FA0004334C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8CC66A1F5954D600F320B2 /* PBXTargetDependency */,
+				5D8D398C1F601FA0004334C0 /* PBXTargetDependency */,
+			);
+			name = "HDFC Securities";
+			productName = "Kotak Wealth Watch App";
+			productReference = 5D8CC6451F5954D400F320B2 /* HDFC Securities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D8CC65D1F5954D600F320B2 /* HDFC SecuritiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8CC6991F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC SecuritiesTests" */;
+			buildPhases = (
+				5D8CC65A1F5954D600F320B2 /* Sources */,
+				5D8CC65B1F5954D600F320B2 /* Frameworks */,
+				5D8CC65C1F5954D600F320B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8CC6601F5954D600F320B2 /* PBXTargetDependency */,
+			);
+			name = "HDFC SecuritiesTests";
+			productName = "Kotak Wealth Watch AppTests";
+			productReference = 5D8CC65E1F5954D600F320B2 /* HDFC SecuritiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D8CC6661F5954D600F320B2 /* HDFC Securities WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8CC6921F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities WatchKit App" */;
+			buildPhases = (
+				5D8CC6651F5954D600F320B2 /* Resources */,
+				5D8CC6911F5954D600F320B2 /* Embed App Extensions */,
+				5D32DB5F1F5E74D200266B3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8CC6791F5954D600F320B2 /* PBXTargetDependency */,
+			);
+			name = "HDFC Securities WatchKit App";
+			productName = "Kotak Wealth Watch App WatchKit App";
+			productReference = 5D8CC6671F5954D600F320B2 /* HDFC Securities WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5D8CC6751F5954D600F320B2 /* HDFC Securities WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8CC68E1F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities WatchKit Extension" */;
+			buildPhases = (
+				5D8CC6721F5954D600F320B2 /* Sources */,
+				5D8CC6731F5954D600F320B2 /* Frameworks */,
+				5D8CC6741F5954D600F320B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HDFC Securities WatchKit Extension";
+			productName = "Kotak Wealth Watch App WatchKit Extension";
+			productReference = 5D8CC6761F5954D600F320B2 /* HDFC Securities WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		5D8D39841F601F9F004334C0 /* KWNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8D39901F601FA0004334C0 /* Build configuration list for PBXNativeTarget "KWNotificationService" */;
+			buildPhases = (
+				5D8D39811F601F9F004334C0 /* Sources */,
+				5D8D39821F601F9F004334C0 /* Frameworks */,
+				5D8D39831F601F9F004334C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWNotificationService;
+			productName = KWNotificationService;
+			productReference = 5D8D39851F601F9F004334C0 /* KWNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8CC63D1F5954D300F320B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shephertz Technologies";
+				TargetAttributes = {
+					5D8CC6441F5954D400F320B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5D8CC65D1F5954D600F320B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 98R9N5SJ9X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D8CC6441F5954D400F320B2;
+					};
+					5D8CC6661F5954D600F320B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Manual;
+					};
+					5D8CC6751F5954D600F320B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Manual;
+					};
+					5D8D39841F601F9F004334C0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5D8CC6401F5954D400F320B2 /* Build configuration list for PBXProject "HDFC Securities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D8CC63C1F5954D300F320B2;
+			productRefGroup = 5D8CC6461F5954D400F320B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8CC6441F5954D400F320B2 /* HDFC Securities */,
+				5D8CC65D1F5954D600F320B2 /* HDFC SecuritiesTests */,
+				5D8CC6661F5954D600F320B2 /* HDFC Securities WatchKit App */,
+				5D8CC6751F5954D600F320B2 /* HDFC Securities WatchKit Extension */,
+				5D8D39841F601F9F004334C0 /* KWNotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8CC6431F5954D400F320B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D32DB821F5E94B900266B3D /* ic_close.png in Resources */,
+				180086B42091CFF700258D9E /* twitter_60_60.png in Resources */,
+				5D32DB851F5E94B900266B3D /* iifllogo.png in Resources */,
+				180086B62091CFF700258D9E /* whatsapp_60_60.png in Resources */,
+				180086AA2091CFF700258D9E /* back@3x.png in Resources */,
+				5D32DB8D1F5E94B900266B3D /* ongc_icon.png in Resources */,
+				180086B32091CFF700258D9E /* twitter_120_120.png in Resources */,
+				5D32DB871F5E94B900266B3D /* login_back.jpg in Resources */,
+				5D32DB901F5E94B900266B3D /* register.png in Resources */,
+				180086B22091CFF700258D9E /* mail_60_60.png in Resources */,
+				5D32DB891F5E94B900266B3D /* maruti_suzuki_icon.png in Resources */,
+				5DE58C4B2046811700EF6A39 /* close@3x.png in Resources */,
+				5D8CC6581F5954D500F320B2 /* LaunchScreen.storyboard in Resources */,
+				5D32DB8A1F5E94B900266B3D /* menu_icon.png in Resources */,
+				5D32DB881F5E94B900266B3D /* logout_icon.png in Resources */,
+				180086AE2091CFF700258D9E /* fb_60_60.png in Resources */,
+				5DB629512099C44F004FB91B /* userProfile.png in Resources */,
+				180086B02091CFF700258D9E /* Icon.png in Resources */,
+				180086B12091CFF700258D9E /* mail_120_120.png in Resources */,
+				5D32DB801F5E94B900266B3D /* email_icon.png in Resources */,
+				180086AD2091CFF700258D9E /* fb_120_120.png in Resources */,
+				180086A92091CFF700258D9E /* back@2x.png in Resources */,
+				5D8CC6551F5954D500F320B2 /* Assets.xcassets in Resources */,
+				180086A82091CFF700258D9E /* back.png in Resources */,
+				5D32DB8B1F5E94B900266B3D /* mywatch.png in Resources */,
+				5D9D17331F5FE4A8009A4232 /* graph.png in Resources */,
+				5D32DB811F5E94B900266B3D /* gra.png in Resources */,
+				5D32DB7D1F5E94B900266B3D /* added.png in Resources */,
+				5DE58C4A2046811700EF6A39 /* close@2x.png in Resources */,
+				5D8CC6531F5954D500F320B2 /* Main.storyboard in Resources */,
+				5DE58C4C2046811700EF6A39 /* close.png in Resources */,
+				5D32DB8C1F5E94B900266B3D /* name_icon.png in Resources */,
+				5D32DB911F5E94B900266B3D /* tata.png in Resources */,
+				5D32DB7F1F5E94B900266B3D /* company_icon.png in Resources */,
+				5D32DB841F5E94B900266B3D /* iifl_icon.png in Resources */,
+				5D32DB8E1F5E94B900266B3D /* password_icon.png in Resources */,
+				180086AF2091CFF700258D9E /* gift_icon.png in Resources */,
+				5D32DB831F5E94B900266B3D /* icici.png in Resources */,
+				5D32DB7C1F5E94B900266B3D /* add.png in Resources */,
+				180086AC2091CFF700258D9E /* config.json in Resources */,
+				5D32DB7E1F5E94B900266B3D /* back_icon.png in Resources */,
+				5D32DB861F5E94B900266B3D /* login.png in Resources */,
+				5DE58C4F20469F7500EF6A39 /* hfc-app-icon.png in Resources */,
+				180086B52091CFF700258D9E /* whatsapp_120_120.png in Resources */,
+				5D32DB8F1F5E94B900266B3D /* refresh.png in Resources */,
+				5D32DBA21F5ED81600266B3D /* 120px.png in Resources */,
+				180086AB2091CFF700258D9E /* BgImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC65C1F5954D600F320B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6651F5954D600F320B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8CC6701F5954D600F320B2 /* Assets.xcassets in Resources */,
+				5D8CC66E1F5954D600F320B2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6741F5954D600F320B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8CC68A1F5954D600F320B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D39831F601F9F004334C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8CC6411F5954D400F320B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D32DBA01F5ECEEA00266B3D /* LoginViewController.m in Sources */,
+				5D8CC6501F5954D400F320B2 /* ViewController.m in Sources */,
+				5D32DB9A1F5EBF4800266B3D /* MyStocksViewController.m in Sources */,
+				5D8CC64D1F5954D400F320B2 /* AppDelegate.m in Sources */,
+				180086952091A8F100258D9E /* App42SurveyForm.m in Sources */,
+				180086942091A8F100258D9E /* App42PopUp.m in Sources */,
+				5D8CC64A1F5954D400F320B2 /* main.m in Sources */,
+				180086902091A8F100258D9E /* App42CustomView.m in Sources */,
+				180086962091A8F100258D9E /* InAppListener.m in Sources */,
+				5DB6294F2099C3FF004FB91B /* ProfileViewController.m in Sources */,
+				180086932091A8F100258D9E /* App42InviteView.m in Sources */,
+				5D32DB941F5EA04000266B3D /* StocksListTableViewCell.m in Sources */,
+				180086912091A8F100258D9E /* App42IAMViewController.m in Sources */,
+				5D32DB971F5EAA1F00266B3D /* StockDetailViewController.m in Sources */,
+				180086922091A8F100258D9E /* App42Interstitial.m in Sources */,
+				5D32DB631F5E8E2200266B3D /* StocksListViewController.m in Sources */,
+				1800868F2091A8F100258D9E /* App42Alert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC65A1F5954D600F320B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8CC6631F5954D600F320B2 /* Kotak_Wealth_Watch_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8CC6721F5954D600F320B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8CC6A11F595FAE00F320B2 /* TableRowController.m in Sources */,
+				5D8CC6821F5954D600F320B2 /* ExtensionDelegate.m in Sources */,
+				5D8CC6881F5954D600F320B2 /* ComplicationController.m in Sources */,
+				5D8CC67F1F5954D600F320B2 /* InterfaceController.m in Sources */,
+				5D8CC6851F5954D600F320B2 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D39811F601F9F004334C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D39891F601FA0004334C0 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D8CC6601F5954D600F320B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8CC6441F5954D400F320B2 /* HDFC Securities */;
+			targetProxy = 5D8CC65F1F5954D600F320B2 /* PBXContainerItemProxy */;
+		};
+		5D8CC66A1F5954D600F320B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8CC6661F5954D600F320B2 /* HDFC Securities WatchKit App */;
+			targetProxy = 5D8CC6691F5954D600F320B2 /* PBXContainerItemProxy */;
+		};
+		5D8CC6791F5954D600F320B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8CC6751F5954D600F320B2 /* HDFC Securities WatchKit Extension */;
+			targetProxy = 5D8CC6781F5954D600F320B2 /* PBXContainerItemProxy */;
+		};
+		5D8D398C1F601FA0004334C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8D39841F601F9F004334C0 /* KWNotificationService */;
+			targetProxy = 5D8D398B1F601FA0004334C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D8CC6511F5954D500F320B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8CC6521F5954D500F320B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D8CC6561F5954D500F320B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8CC6571F5954D500F320B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D8CC66C1F5954D600F320B2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8CC66D1F5954D600F320B2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D8CC68C1F5954D600F320B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D8CC68D1F5954D600F320B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D8CC68F1F5954D600F320B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		5D8CC6901F5954D600F320B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		5D8CC6931F5954D600F320B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				IBSC_MODULE = Kotak_Wealth_Watch_App_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KotakWealthApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		5D8CC6941F5954D600F320B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				IBSC_MODULE = Kotak_Wealth_Watch_App_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KotakWealthApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		5D8CC6971F5954D600F320B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HDFC Securities/HDFC Securities.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc2e451f-40f3-4ffe-9fe0-1d788669a436";
+				PROVISIONING_PROFILE_SPECIFIER = App42PushAppDev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D8CC6981F5954D600F320B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HDFC Securities/HDFC Securities.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HDFC Securities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc2e451f-40f3-4ffe-9fe0-1d788669a436";
+				PROVISIONING_PROFILE_SPECIFIER = App42PushAppDev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5D8CC69A1F5954D600F320B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 98R9N5SJ9X;
+				INFOPLIST_FILE = "Kotak Wealth Watch AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.App42Services.Kotak-Wealth-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDFC Securities.app/HDFC Securities";
+			};
+			name = Debug;
+		};
+		5D8CC69B1F5954D600F320B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 98R9N5SJ9X;
+				INFOPLIST_FILE = "Kotak Wealth Watch AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.App42Services.Kotak-Wealth-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDFC Securities.app/HDFC Securities";
+			};
+			name = Release;
+		};
+		5D8D398E1F601FA0004334C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KWNotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KWNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5D8D398F1F601FA0004334C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KWNotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.app42pushapp.KWNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f57bd9fb-1150-4352-81f0-2c553965c94b";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8CC6401F5954D400F320B2 /* Build configuration list for PBXProject "HDFC Securities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8CC68C1F5954D600F320B2 /* Debug */,
+				5D8CC68D1F5954D600F320B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8CC68E1F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8CC68F1F5954D600F320B2 /* Debug */,
+				5D8CC6901F5954D600F320B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8CC6921F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8CC6931F5954D600F320B2 /* Debug */,
+				5D8CC6941F5954D600F320B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8CC6961F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC Securities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8CC6971F5954D600F320B2 /* Debug */,
+				5D8CC6981F5954D600F320B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8CC6991F5954D600F320B2 /* Build configuration list for PBXNativeTarget "HDFC SecuritiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8CC69A1F5954D600F320B2 /* Debug */,
+				5D8CC69B1F5954D600F320B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8D39901F601FA0004334C0 /* Build configuration list for PBXNativeTarget "KWNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8D398E1F601FA0004334C0 /* Debug */,
+				5D8D398F1F601FA0004334C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D8CC63D1F5954D300F320B2 /* Project object */;
+}

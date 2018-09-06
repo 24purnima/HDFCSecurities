@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kotak Wealth Watch App.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257</string>
+				<key>dateExpires</key>
+				<string>16/10/18</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257</string>
+						<key>dateExpires</key>
+						<string>16/10/18</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>KFBXQCNERU.com.shephertz.app42pushapp.KWNotificationService</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>93TF9ZT92J</string>
+						<key>get-task-allow</key>
+						<true/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>KFBXQCNERU.com.shephertz.app42pushapp.KWNotificationService</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>KWNotificationService.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>f1f3f90b-b3fd-4a96-9a38-a443899adf8e</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: *</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>93TF9ZT92J</string>
+						<key>name</key>
+						<string>Shephertz Technologies Private Limited</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7k</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257</string>
+						<key>dateExpires</key>
+						<string>16/10/18</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>embeddedBinaries</key>
+					<array>
+						<dict>
+							<key>architectures</key>
+							<array>
+								<string>armv7k</string>
+							</array>
+							<key>certificate</key>
+							<dict>
+								<key>SHA1</key>
+								<string>6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257</string>
+								<key>dateExpires</key>
+								<string>16/10/18</string>
+								<key>type</key>
+								<string>iOS Development</string>
+							</dict>
+							<key>entitlements</key>
+							<dict>
+								<key>application-identifier</key>
+								<string>KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension</string>
+								<key>com.apple.developer.team-identifier</key>
+								<string>93TF9ZT92J</string>
+								<key>get-task-allow</key>
+								<true/>
+								<key>keychain-access-groups</key>
+								<array>
+									<string>KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension</string>
+								</array>
+							</dict>
+							<key>name</key>
+							<string>Kotak Wealth Watch App WatchKit Extension.appex</string>
+							<key>profile</key>
+							<dict>
+								<key>UUID</key>
+								<string>f1f3f90b-b3fd-4a96-9a38-a443899adf8e</string>
+								<key>name</key>
+								<string>iOS Team Provisioning Profile: *</string>
+							</dict>
+							<key>team</key>
+							<dict>
+								<key>id</key>
+								<string>93TF9ZT92J</string>
+								<key>name</key>
+								<string>Shephertz Technologies Private Limited</string>
+							</dict>
+						</dict>
+					</array>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>93TF9ZT92J</string>
+						<key>get-task-allow</key>
+						<true/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>Kotak Wealth Watch App WatchKit App.app</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>f1f3f90b-b3fd-4a96-9a38-a443899adf8e</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: *</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>93TF9ZT92J</string>
+						<key>name</key>
+						<string>Shephertz Technologies Private Limited</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>93TF9ZT92J.com.shephertz.app42pushapp</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>93TF9ZT92J</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Kotak Wealth Watch App.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>65636de8-99b5-4f7f-ba71-dfc02c237943</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.shephertz.app42pushapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>93TF9ZT92J</string>
+				<key>name</key>
+				<string>Shephertz Technologies Private Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

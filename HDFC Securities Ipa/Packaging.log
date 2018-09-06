@@ -1,0 +1,874 @@
+2018-02-28 07:45:23 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd9844ae320; archive(resolved)='<IDEArchive: 0x7fd980d55b90>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd9844ae320; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd9843e9e90; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd982563a20; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd991b02fb0; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd982501da0; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd9844c3120; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd9802f4960; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd982194920; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd981674ba0; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='<IDEProvisioningBasicTeam 0x7fd981a66d90: teamID: 93TF9ZT92J, teamName: Shephertz Technologies Private Limited>'>
+	<IDEDistributionContext: 0x7fd98445e350; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd99b8ad5c0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd9819789c0; archive = '<IDEArchive: 0x7fd980d55b90>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd9844ae320>
+2018-02-28 07:45:23 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-02-28 07:45:23 +0000  Processing step: IDEDistributionCopyItemStep
+2018-02-28 07:45:23 +0000  Running /usr/bin/ditto '-V' '/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app'
+2018-02-28 07:45:23 +0000  >>> Copying /Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app 
+2018-02-28 07:45:23 +0000  
+2018-02-28 07:45:23 +0000  copying file ./120px.png ... 
+2018-02-28 07:45:23 +0000  20296 bytes for ./120px.png
+2018-02-28 07:45:23 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-02-28 07:45:24 +0000  26723 bytes for ./_CodeSignature/CodeResources
+2018-02-28 07:45:24 +0000  copying file ./add.png ... 
+2018-02-28 07:45:24 +0000  6791 bytes for ./add.png
+2018-02-28 07:45:24 +0000  copying file ./added.png ... 
+2018-02-28 07:45:24 +0000  6915 bytes for ./added.png
+2018-02-28 07:45:24 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+246 bytes for ./archived-expanded-entitlements.xcent
+copying file ./back_icon.png ... 
+2018-02-28 07:45:24 +0000  335 bytes for ./back_icon.png
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-02-28 07:45:24 +0000  1805 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-28 07:45:24 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-02-28 07:45:24 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/4Y1-BW-Z6v-view-al4-6b-j30.nib ... 
+2018-02-28 07:45:24 +0000  3961 bytes for ./Base.lproj/Main.storyboardc/4Y1-BW-Z6v-view-al4-6b-j30.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-02-28 07:45:24 +0000  9143 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/eD8-c3-Gdm-view-jZJ-fm-Ux1.nib ... 
+2018-02-28 07:45:24 +0000  7944 bytes for ./Base.lproj/Main.storyboardc/eD8-c3-Gdm-view-jZJ-fm-Ux1.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/F5T-C4-6B9-view-WSe-RD-WF9.nib ... 
+2018-02-28 07:45:24 +0000  15727 bytes for ./Base.lproj/Main.storyboardc/F5T-C4-6B9-view-WSe-RD-WF9.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-28 07:45:24 +0000  513 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/LoginViewController.nib ... 
+2018-02-28 07:45:24 +0000  1416 bytes for ./Base.lproj/Main.storyboardc/LoginViewController.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/MyStocksViewController.nib ... 
+2018-02-28 07:45:24 +0000  1419 bytes for ./Base.lproj/Main.storyboardc/MyStocksViewController.nib
+2018-02-28 07:45:24 +0000  copying file ./Base.lproj/Main.storyboardc/StockDetailViewController.nib ... 
+2018-02-28 07:45:25 +0000  1112 bytes for ./Base.lproj/Main.storyboardc/StockDetailViewController.nib
+copying file ./Base.lproj/Main.storyboardc/StocksListViewController.nib ... 
+2018-02-28 07:45:25 +0000  2138 bytes for ./Base.lproj/Main.storyboardc/StocksListViewController.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-Kwe-Si-W0W.nib ... 
+2018-02-28 07:45:25 +0000  2020 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-Kwe-Si-W0W.nib
+2018-02-28 07:45:25 +0000  copying file ./close.png ... 
+2018-02-28 07:45:25 +0000  303 bytes for ./close.png
+2018-02-28 07:45:25 +0000  copying file ./close@2x.png ... 
+2018-02-28 07:45:25 +0000  531 bytes for ./close@2x.png
+copying file ./close@3x.png ... 
+2018-02-28 07:45:25 +0000  689 bytes for ./close@3x.png
+copying file ./company_icon.png ... 
+2018-02-28 07:45:25 +0000  1531 bytes for ./company_icon.png
+2018-02-28 07:45:25 +0000  copying file ./email_icon.png ... 
+2018-02-28 07:45:25 +0000  1298 bytes for ./email_icon.png
+copying file ./embedded.mobileprovision ... 
+2018-02-28 07:45:25 +0000  18452 bytes for ./embedded.mobileprovision
+copying file ./gra.png ... 
+2018-02-28 07:45:25 +0000  7835 bytes for ./gra.png
+2018-02-28 07:45:25 +0000  copying file ./graph.png ... 
+2018-02-28 07:45:25 +0000  17178 bytes for ./graph.png
+copying file ./ic_close.png ... 
+2018-02-28 07:45:25 +0000  4695 bytes for ./ic_close.png
+2018-02-28 07:45:25 +0000  copying file ./icici.png ... 
+2018-02-28 07:45:25 +0000  7084 bytes for ./icici.png
+2018-02-28 07:45:25 +0000  copying file ./iifl_icon.png ... 
+2018-02-28 07:45:25 +0000  10838 bytes for ./iifl_icon.png
+2018-02-28 07:45:25 +0000  copying file ./iifllogo.png ... 
+2018-02-28 07:45:25 +0000  11677 bytes for ./iifllogo.png
+2018-02-28 07:45:25 +0000  copying file ./Info.plist ... 
+2018-02-28 07:45:25 +0000  1325 bytes for ./Info.plist
+copying file ./Kotak Wealth Watch App ... 
+2018-02-28 07:45:25 +0000  2084736 bytes for ./Kotak Wealth Watch App
+2018-02-28 07:45:25 +0000  copying file ./login.png ... 
+2018-02-28 07:45:25 +0000  3556 bytes for ./login.png
+2018-02-28 07:45:25 +0000  copying file ./login_back.jpg ... 
+2018-02-28 07:45:25 +0000  42899 bytes for ./login_back.jpg
+2018-02-28 07:45:25 +0000  copying file ./logout_icon.png ... 
+2018-02-28 07:45:25 +0000  1418 bytes for ./logout_icon.png
+2018-02-28 07:45:25 +0000  copying file ./maruti_suzuki_icon.png ... 
+2018-02-28 07:45:25 +0000  5978 bytes for ./maruti_suzuki_icon.png
+copying file ./menu_icon.png ... 
+2018-02-28 07:45:25 +0000  114 bytes for ./menu_icon.png
+2018-02-28 07:45:25 +0000  copying file ./mywatch.png ... 
+2018-02-28 07:45:26 +0000  6300 bytes for ./mywatch.png
+2018-02-28 07:45:26 +0000  copying file ./name_icon.png ... 
+2018-02-28 07:45:26 +0000  942 bytes for ./name_icon.png
+copying file ./ongc_icon.png ... 
+2018-02-28 07:45:26 +0000  8419 bytes for ./ongc_icon.png
+2018-02-28 07:45:26 +0000  copying file ./password_icon.png ... 
+2018-02-28 07:45:26 +0000  596 bytes for ./password_icon.png
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-02-28 07:45:26 +0000  copying file ./PlugIns/KWNotificationService.appex/_CodeSignature/CodeResources ... 
+2018-02-28 07:45:26 +0000  2846 bytes for ./PlugIns/KWNotificationService.appex/_CodeSignature/CodeResources
+2018-02-28 07:45:26 +0000  copying file ./PlugIns/KWNotificationService.appex/archived-expanded-entitlements.xcent ... 
+2018-02-28 07:45:26 +0000  434 bytes for ./PlugIns/KWNotificationService.appex/archived-expanded-entitlements.xcent
+copying file ./PlugIns/KWNotificationService.appex/embedded.mobileprovision ... 
+18711 bytes for ./PlugIns/KWNotificationService.appex/embedded.mobileprovision
+copying file ./PlugIns/KWNotificationService.appex/Info.plist ... 
+2018-02-28 07:45:26 +0000  986 bytes for ./PlugIns/KWNotificationService.appex/Info.plist
+2018-02-28 07:45:26 +0000  copying file ./PlugIns/KWNotificationService.appex/KWNotificationService ... 
+2018-02-28 07:45:26 +0000  144640 bytes for ./PlugIns/KWNotificationService.appex/KWNotificationService
+2018-02-28 07:45:26 +0000  copying file ./refresh.png ... 
+2018-02-28 07:45:26 +0000  8591 bytes for ./refresh.png
+2018-02-28 07:45:26 +0000  copying file ./register.png ... 
+2018-02-28 07:45:26 +0000  4657 bytes for ./register.png
+2018-02-28 07:45:26 +0000  copying file ./tata.png ... 
+2018-02-28 07:45:26 +0000  3488 bytes for ./tata.png
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/_CodeSignature/CodeResources ... 
+2018-02-28 07:45:26 +0000  8339 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/_CodeSignature/CodeResources
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK ... 
+42960 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon24x24@2x.png ... 
+2018-02-28 07:45:26 +0000  4902 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon24x24@2x.png
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon27.5x27.5@2x.png ... 
+2018-02-28 07:45:26 +0000  5884 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon27.5x27.5@2x.png
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@2x.png ... 
+2018-02-28 07:45:26 +0000  6261 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@2x.png
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@3x.png ... 
+2018-02-28 07:45:26 +0000  12215 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@3x.png
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon40x40@2x.png ... 
+2018-02-28 07:45:26 +0000  10629 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon40x40@2x.png
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon86x86@2x.png ... 
+2018-02-28 07:45:26 +0000  38334 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon86x86@2x.png
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon98x98@2x.png ... 
+2018-02-28 07:45:26 +0000  48026 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon98x98@2x.png
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/archived-expanded-entitlements.xcent ... 
+2018-02-28 07:45:26 +0000  444 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/archived-expanded-entitlements.xcent
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/Assets.car ... 
+2018-02-28 07:45:26 +0000  148520 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/Assets.car
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface-notification.plist ... 
+2018-02-28 07:45:26 +0000  463 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface-notification.plist
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface.plist ... 
+2018-02-28 07:45:26 +0000  613 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface.plist
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/embedded.mobileprovision ... 
+2018-02-28 07:45:26 +0000  18711 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/embedded.mobileprovision
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/Info.plist ... 
+1207 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/Info.plist
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/Kotak Wealth Watch App WatchKit App ... 
+2018-02-28 07:45:26 +0000  43904 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/Kotak Wealth Watch App WatchKit App
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PkgInfo ... 
+2018-02-28 07:45:26 +0000  8 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PkgInfo
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/_CodeSignature/CodeResources ... 
+2018-02-28 07:45:26 +0000  2846 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/_CodeSignature/CodeResources
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/archived-expanded-entitlements.xcent ... 
+2018-02-28 07:45:26 +0000  480 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/archived-expanded-entitlements.xcent
+copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/embedded.mobileprovision ... 
+2018-02-28 07:45:26 +0000  18711 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/embedded.mobileprovision
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Info.plist ... 
+2018-02-28 07:45:26 +0000  1448 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Info.plist
+2018-02-28 07:45:26 +0000  copying file ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension ... 
+2018-02-28 07:45:26 +0000  /usr/bin/ditto exited with 0
+2018-02-28 07:45:26 +0000  130096 bytes for ./Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension
+2018-02-28 07:45:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-02-28 07:45:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd9827db7e0 '(null)' '<DVTFilePath:0x7fd982a79df0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK'>'>
+2018-02-28 07:45:27 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-02-28 07:45:27 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-02-28 07:45:27 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-02-28 07:45:27 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root' '--json' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool-json-filepath-fYLcrM' '--compile-bitcode' '--output' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-02-28 07:45:27 +0000  ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
+2018-02-28 07:45:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2018-02-28 07:45:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2018-02-28 07:45:38 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-02-28 07:45:38 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-02-28 07:45:39 +0000  OS X 10.12.6 16G1204
+2018-02-28 07:45:39 +0000  
+ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/", "LOGNAME"=>"Rajeev", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/Rajeev", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.nZGx8du9Me/Render", "USER"=>"Rajeev", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.VZ1cyuTWS8/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.152", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F6:0x0:0x0"}
+ARGV: ["/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root", "--json", "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool-json-filepath-fYLcrM", "--compile-bitcode", "--output", "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-02-28 07:45:40 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-02-28 07:45:40 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-02-28 07:45:40 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-02-28 07:45:40 +0000  Scanning IPA...
+2018-02-28 07:45:43 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature KWNotificationService
+2018-02-28 07:45:44 +0000      /usr/bin/python exited with pid 5040 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:44 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent KWNotificationService
+2018-02-28 07:45:44 +0000      /usr/bin/python exited with pid 5042 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:44 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision KWNotificationService
+2018-02-28 07:45:44 +0000      /usr/bin/python exited with pid 5044 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:44 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist KWNotificationService
+2018-02-28 07:45:44 +0000      /usr/bin/python exited with pid 5046 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:44 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) KWNotificationService KWNotificationService
+2018-02-28 07:45:44 +0000      /usr/bin/python exited with pid 5048 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5146 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5148 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5151 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5153 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5155 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5157 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _WatchKitStub Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5158 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon24x24@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5160 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon27.5x27.5@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5162 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon29x29@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5165 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon29x29@3x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:45 +0000      /usr/bin/python exited with pid 5167 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:45 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon40x40@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5169 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon86x86@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5172 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) AppIcon98x98@2x.png Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5173 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5176 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Assets.car Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5178 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Base.lproj Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5180 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000  
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5182 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5184 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Kotak\ Wealth\ Watch\ App\ WatchKit\ App Kotak\ Wealth\ Watch\ App\ WatchKit\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5186 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) 120px.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5187 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5190 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) add.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5192 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) added.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5194 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5195 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) back_icon.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5198 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Base.lproj Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5199 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) close.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:46 +0000      /usr/bin/python exited with pid 5201 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:46 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) close@2x.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5203 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) close@3x.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5205 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) company_icon.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5207 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) email_icon.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5209 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5211 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) gra.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5213 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) graph.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5215 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) ic_close.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5217 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) icici.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5219 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) iifl_icon.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5221 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) iifllogo.png Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:47 +0000      /usr/bin/python exited with pid 5223 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:47 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:48 +0000      /usr/bin/python exited with pid 5225 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-02-28 07:45:48 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Kotak\ Wealth\ Watch\ App Kotak\ Wealth\ Watch\ App
+2018-02-28 07:45:48 +0000  
+2018-02-28 07:45:48 +0000      /usr/bin/python exited with pid 5235 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-02-28 07:45:50 +0000  Complete LinkageGraph:
+    Kotak Wealth Watch App.app/Kotak Wealth Watch App armv7 ->
+    
+    Kotak Wealth Watch App.app/Kotak Wealth Watch App arm64 ->
+    
+    Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/KWNotificationService armv7 ->
+    
+    Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/KWNotificationService arm64 ->
+    
+    Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK armv7k ->
+    
+    Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Kotak Wealth Watch App WatchKit App armv7k ->
+    
+    Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension armv7k ->
+2018-02-28 07:45:50 +0000  Validating IPA structure...
+2018-02-28 07:45:54 +0000  Compiling bitcode...
+2018-02-28 07:45:54 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk -o /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak\ Wealth\ Watch\ App.app/Watch/Kotak\ Wealth\ Watch\ App\ WatchKit\ App.app/PlugIns/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.appex/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension --generate-dsym /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak\ Wealth\ Watch\ App.app/Watch/Kotak\ Wealth\ Watch\ App\ WatchKit\ App.app/PlugIns/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.appex/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.dSYM --strip-swift-symbols /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak\ Wealth\ Watch\ App.app/Watch/Kotak\ Wealth\ Watch\ App\ WatchKit\ App.app/PlugIns/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.appex/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:45:54 +0000    |  Compiling bitcode for armv7k...
+  |    Compiling armv7k bitcode in 'Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension'
+2018-02-28 07:45:57 +0000          /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 5288 exit 0
+        Stdout:
+            Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk
+            Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+            MachoInfo: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" 
+            -= Output =-
+            Non-fat file: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension is architecture: armv7k
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+            GetUUID: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" 
+            -= Output =-
+            UUID: 688CED94-4E5E-386F-B4F8-84A6CBD2838B (armv7k) /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+            ExtractXAR: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" "-extract" "__LLVM" "__bundle" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/Kotak Wealth Watch App WatchKit ExtensionCBrJI2/Kotak Wealth Watch App WatchKit Extension.armv7k.xar" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Bitcode bundle version: 1.0
+            Debug: Setting platform to: watchOS
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+            Clang: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7k-apple-watchos3.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "aapcs16" "-mfloat-abi" "hard" "-Os" "-x" "ir" "1" "-o" "1.o" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Clang: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/
+2018-02-28 07:45:57 +0000  Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7k-apple-watchos3.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "aapcs16" "-mfloat-abi" "hard" "-Os" "-x" "ir" "2" "-o" "2.o" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Clang: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7k-apple-watchos3.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "aapcs16" "-mfloat-abi" "hard" "-Os" "-x" "ir" "3" "-o" "3.o" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Clang: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7k-apple-watchos3.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "aapcs16" "-mfloat-abi" "hard" "-Os" "-x" "ir" "4" "-o" "4.o" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Clang: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7k-apple-watchos3.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "aapcs16" "-mfloat-abi" "hard" "-Os" "-x" "ir" "5" "-o" "5.o" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/WatchKit.framework/WatchKit.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libobjc.A.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libSystem.B.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+            Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libobjc.A.tbd
+            Ld: cd /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7k" "-execute" "-watchos_version_min" "0.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-rpath" "@executable_path/../../Frameworks" "-executable_path" "/Users/Rajeev/Library/Developer/Xcode/DerivedData/Kotak_Wealth_Watch_App-eefrfildewsoyxbtqztnaztzadad/Build/Intermediates.noindex/ArchiveIntermediates/Kotak Wealth Watch App/IntermediateBuildFilesPath/UninstalledProducts/watchos/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" "-dead_strip" "-application_extension" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk" "-sdk_version" "4.2.0" "-filelist" "/private/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/Kotak Wealth Watch App WatchKit ExtensionCBrJI2/Kotak Wealth Watch App WatchKit Extension.armv7k.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xc
+2018-02-28 07:45:57 +0000  ode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/WatchKit.framework/WatchKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.watchos.a" "-o" "/private/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/Kotak Wealth Watch App WatchKit ExtensionCBrJI2/Kotak Wealth Watch App WatchKit Extension.armv7k.out" 
+            -= Output =-
+            ld: warning: -watchos_version_min not specified, assuming 2.0
+            ld: warning: object file (/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq/1.o) was built for newer watchOS version (3.2) than being linked (2.0)
+            ld: warning: object file (/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq/2.o) was built for newer watchOS version (3.2) than being linked (2.0)
+            ld: warning: object file (/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq/3.o) was built for newer watchOS version (3.2) than being linked (2.0)
+            ld: warning: object file (/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq/4.o) was built for newer watchOS version (3.2) than being linked (2.0)
+            ld: warning: object file (/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/tempI4s0bq/5.o) was built for newer watchOS version (3.2) than being linked (2.0)
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            warning: Cannot genarte useful dsym from input macho file: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension
+            
+            GetUUID: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" 
+            -= Output =-
+            UUID: 44707E55-7270-3AEF-A2E8-B972945BE7AF (armv7k) /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+            Dsymutil: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" "-o" "/var/folders/_
+2018-02-28 07:45:57 +0000  m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension.dSYM" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+            Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+            StripSymbols: cd /
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension" 
+            -= Output =-
+            Exited with 0
+            
+            Debug: Command took 0 seconds
+        
+        Stderr:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak\ Wealth\ Watch\ App.app/Watch/Kotak\ Wealth\ Watch\ App\ WatchKit\ App.app/PlugIns/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.appex /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak\ Wealth\ Watch\ App.app/Watch/Kotak\ Wealth\ Watch\ App\ WatchKit\ App.app/PlugIns/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension.appex/Kotak\ Wealth\ Watch\ App\ WatchKit\ Extension
+2018-02-28 07:46:01 +0000          /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 5306 exit 0
+        Stdout:
+            /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/ipatool20180228-4877-3l6syo/thinned/armv7k/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension [armv7k, 0.179240 seconds]:
+        
+        Stderr:
+2018-02-28 07:46:01 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26/universal
+  Copying Kotak Wealth Watch App.app output payload directory
+2018-02-28 07:46:02 +0000    Copying .dSYM files to /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26/universal/dSYMs
+  Copying .symbols files to /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26/universal/Symbols
+2018-02-28 07:46:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2018-02-28 07:46:02 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/IDEIPAProcessor.AppThinning.A26/universal";
+    };
+}
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionSymbolsStep
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionAppThinningStep
+2018-02-28 07:46:02 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionODRStep
+2018-02-28 07:46:02 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-02-28 07:46:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd993e8d320 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension' '<DVTFilePath:0x7fd98439c740:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex'>'>
+2018-02-28 07:46:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd9827db7e0 '(null)' '<DVTFilePath:0x7fd982a79df0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK'>'>
+2018-02-28 07:46:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd980271460 'com.shephertz.app42pushapp.KWNotificationService' '<DVTFilePath:0x7fd983153ad0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex'>'>
+2018-02-28 07:46:02 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd982ca1250 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp' '<DVTFilePath:0x7fd97e420960:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app'>'>
+2018-02-28 07:46:02 +0000  Running /usr/bin/xattr '-crs' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app'
+2018-02-28 07:46:03 +0000  /usr/bin/xattr exited with 0
+2018-02-28 07:46:03 +0000  Processing step: IDEDistributionCodesignStep
+2018-02-28 07:46:03 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd993e8d320 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension' '<DVTFilePath:0x7fd98439c740:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd980265710>: {
+}
+2018-02-28 07:46:03 +0000  Entitlements for <IDEDistributionItem: 0x7fd993e8d320 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension' '<DVTFilePath:0x7fd98439c740:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex'>'>: {
+    "application-identifier" = "KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension";
+    "com.apple.developer.team-identifier" = 93TF9ZT92J;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension"
+    );
+}
+2018-02-28 07:46:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd993e8d320 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension' '<DVTFilePath:0x7fd98439c740:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex'>'> to: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsY0CY7C
+2018-02-28 07:46:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsY0CY7C' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex'
+2018-02-28 07:46:04 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex: signed bundle with Mach-O thin (armv7k) [com.shephertz.app42pushapp.KotakWealthApp.watchkitapp.watchkitextension]
+2018-02-28 07:46:04 +0000  /usr/bin/codesign exited with 0
+2018-02-28 07:46:04 +0000  Skipping signing of item: <IDEDistributionItem: 0x7fd9827db7e0 '(null)' '<DVTFilePath:0x7fd982a79df0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK'>'>
+2018-02-28 07:46:04 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd980271460 'com.shephertz.app42pushapp.KWNotificationService' '<DVTFilePath:0x7fd983153ad0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd999858fe0>: {
+}
+2018-02-28 07:46:04 +0000  Entitlements for <IDEDistributionItem: 0x7fd980271460 'com.shephertz.app42pushapp.KWNotificationService' '<DVTFilePath:0x7fd983153ad0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex'>'>: {
+    "application-identifier" = "KFBXQCNERU.com.shephertz.app42pushapp.KWNotificationService";
+    "com.apple.developer.team-identifier" = 93TF9ZT92J;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KFBXQCNERU.com.shephertz.app42pushapp.KWNotificationService"
+    );
+}
+2018-02-28 07:46:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd980271460 'com.shephertz.app42pushapp.KWNotificationService' '<DVTFilePath:0x7fd983153ad0:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex'>'> to: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsz4vn9O
+2018-02-28 07:46:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsz4vn9O' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex'
+2018-02-28 07:46:05 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex: replacing existing signature
+2018-02-28 07:46:05 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex: signed bundle with Mach-O universal (armv7 arm64) [com.shephertz.app42pushapp.KWNotificationService]
+2018-02-28 07:46:05 +0000  /usr/bin/codesign exited with 0
+2018-02-28 07:46:05 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd982ca1250 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp' '<DVTFilePath:0x7fd97e420960:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9823bf3f0>: {
+}
+2018-02-28 07:46:05 +0000  Entitlements for <IDEDistributionItem: 0x7fd982ca1250 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp' '<DVTFilePath:0x7fd97e420960:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app'>'>: {
+    "application-identifier" = "KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp";
+    "com.apple.developer.team-identifier" = 93TF9ZT92J;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KFBXQCNERU.com.shephertz.app42pushapp.KotakWealthApp.watchkitapp"
+    );
+}
+2018-02-28 07:46:05 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd982ca1250 'com.shephertz.app42pushapp.KotakWealthApp.watchkitapp' '<DVTFilePath:0x7fd97e420960:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app'>'> to: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsB6wmer
+2018-02-28 07:46:05 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsB6wmer' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app'
+2018-02-28 07:46:05 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app: replacing existing signature
+2018-02-28 07:46:06 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app: signed app bundle with Mach-O thin (armv7k) [com.shephertz.app42pushapp.KotakWealthApp.watchkitapp]
+2018-02-28 07:46:06 +0000  /usr/bin/codesign exited with 0
+2018-02-28 07:46:06 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd981725430 'com.shephertz.app42pushapp' '<DVTFilePath:0x7fd982bf8370:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9842020f0>: {
+}
+2018-02-28 07:46:06 +0000  Entitlements for <IDEDistributionItem: 0x7fd981725430 'com.shephertz.app42pushapp' '<DVTFilePath:0x7fd982bf8370:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app'>'>: {
+    "application-identifier" = "93TF9ZT92J.com.shephertz.app42pushapp";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 93TF9ZT92J;
+    "get-task-allow" = 1;
+}
+2018-02-28 07:46:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd981725430 'com.shephertz.app42pushapp' '<DVTFilePath:0x7fd982bf8370:'/Users/Rajeev/Library/Developer/Xcode/Archives/2018-02-28/Kotak Wealth Watch App 28-02-18, 1.14 PM.xcarchive/Products/Applications/Kotak Wealth Watch App.app'>'> to: /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsKTs9RI
+2018-02-28 07:46:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '6784EC81E5AA3D4F4900789EAA7F31AD6C3C4257' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/entitlementsKTs9RI' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app'
+2018-02-28 07:46:06 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app: replacing existing signature
+2018-02-28 07:46:06 +0000  /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root/Payload/Kotak Wealth Watch App.app: signed app bundle with Mach-O universal (armv7 arm64) [com.shephertz.app42pushapp]
+2018-02-28 07:46:06 +0000  /usr/bin/codesign exited with 0
+2018-02-28 07:46:06 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-02-28 07:46:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-28 07:46:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-28 07:46:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-28 07:46:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-28 07:46:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-28 07:46:06 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-02-28 07:46:06 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root' '/var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Packages/Kotak Wealth Watch App.ipa'
+2018-02-28 07:46:06 +0000  >>> Copying /var/folders/_m/sb06phqj7hzch6xcq4l7_hqh0000gp/T/XcodeDistPipeline.n62/Root 
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/120px.png ... 
+2018-02-28 07:46:07 +0000  20296 bytes for ./Payload/Kotak Wealth Watch App.app/120px.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/_CodeSignature/CodeResources ... 
+2018-02-28 07:46:07 +0000  26723 bytes for ./Payload/Kotak Wealth Watch App.app/_CodeSignature/CodeResources
+copying file ./Payload/Kotak Wealth Watch App.app/add.png ... 
+2018-02-28 07:46:07 +0000  6791 bytes for ./Payload/Kotak Wealth Watch App.app/add.png
+copying file ./Payload/Kotak Wealth Watch App.app/added.png ... 
+2018-02-28 07:46:07 +0000  6915 bytes for ./Payload/Kotak Wealth Watch App.app/added.png
+copying file ./Payload/Kotak Wealth Watch App.app/archived-expanded-entitlements.xcent ... 
+246 bytes for ./Payload/Kotak Wealth Watch App.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Kotak Wealth Watch App.app/back_icon.png ... 
+335 bytes for ./Payload/Kotak Wealth Watch App.app/back_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-02-28 07:46:07 +0000  1805 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-02-28 07:46:07 +0000  832 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/4Y1-BW-Z6v-view-al4-6b-j30.nib ... 
+2018-02-28 07:46:07 +0000  3961 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/4Y1-BW-Z6v-view-al4-6b-j30.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-02-28 07:46:07 +0000  9143 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/eD8-c3-Gdm-view-jZJ-fm-Ux1.nib ... 
+2018-02-28 07:46:07 +0000  7944 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/eD8-c3-Gdm-view-jZJ-fm-Ux1.nib
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/F5T-C4-6B9-view-WSe-RD-WF9.nib ... 
+2018-02-28 07:46:07 +0000  15727 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/F5T-C4-6B9-view-WSe-RD-WF9.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-28 07:46:07 +0000  513 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/LoginViewController.nib ... 
+1416 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/LoginViewController.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/MyStocksViewController.nib ... 
+2018-02-28 07:46:07 +0000  1419 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/MyStocksViewController.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/StockDetailViewController.nib ... 
+2018-02-28 07:46:07 +0000  1112 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/StockDetailViewController.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/StocksListViewController.nib ... 
+2138 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/StocksListViewController.nib
+copying file ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/UINavigationController-Kwe-Si-W0W.nib ... 
+2018-02-28 07:46:07 +0000  2020 bytes for ./Payload/Kotak Wealth Watch App.app/Base.lproj/Main.storyboardc/UINavigationController-Kwe-Si-W0W.nib
+copying file ./Payload/Kotak Wealth Watch App.app/close.png ... 
+2018-02-28 07:46:07 +0000  303 bytes for ./Payload/Kotak Wealth Watch App.app/close.png
+copying file ./Payload/Kotak Wealth Watch App.app/close@2x.png ... 
+531 bytes for ./Payload/Kotak Wealth Watch App.app/close@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/close@3x.png ... 
+689 bytes for ./Payload/Kotak Wealth Watch App.app/close@3x.png
+copying file ./Payload/Kotak Wealth Watch App.app/company_icon.png ... 
+1531 bytes for ./Payload/Kotak Wealth Watch App.app/company_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/email_icon.png ... 
+2018-02-28 07:46:07 +0000  1298 bytes for ./Payload/Kotak Wealth Watch App.app/email_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/embedded.mobileprovision ... 
+2018-02-28 07:46:07 +0000  18452 bytes for ./Payload/Kotak Wealth Watch App.app/embedded.mobileprovision
+copying file ./Payload/Kotak Wealth Watch App.app/gra.png ... 
+2018-02-28 07:46:07 +0000  7835 bytes for ./Payload/Kotak Wealth Watch App.app/gra.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/graph.png ... 
+2018-02-28 07:46:07 +0000  17178 bytes for ./Payload/Kotak Wealth Watch App.app/graph.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/ic_close.png ... 
+4695 bytes for ./Payload/Kotak Wealth Watch App.app/ic_close.png
+copying file ./Payload/Kotak Wealth Watch App.app/icici.png ... 
+2018-02-28 07:46:07 +0000  7084 bytes for ./Payload/Kotak Wealth Watch App.app/icici.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/iifl_icon.png ... 
+2018-02-28 07:46:07 +0000  10838 bytes for ./Payload/Kotak Wealth Watch App.app/iifl_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/iifllogo.png ... 
+2018-02-28 07:46:07 +0000  11677 bytes for ./Payload/Kotak Wealth Watch App.app/iifllogo.png
+copying file ./Payload/Kotak Wealth Watch App.app/Info.plist ... 
+2625 bytes for ./Payload/Kotak Wealth Watch App.app/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Kotak Wealth Watch App ... 
+2018-02-28 07:46:07 +0000  2084736 bytes for ./Payload/Kotak Wealth Watch App.app/Kotak Wealth Watch App
+copying file ./Payload/Kotak Wealth Watch App.app/login.png ... 
+2018-02-28 07:46:07 +0000  3556 bytes for ./Payload/Kotak Wealth Watch App.app/login.png
+copying file ./Payload/Kotak Wealth Watch App.app/login_back.jpg ... 
+2018-02-28 07:46:07 +0000  42899 bytes for ./Payload/Kotak Wealth Watch App.app/login_back.jpg
+copying file ./Payload/Kotak Wealth Watch App.app/logout_icon.png ... 
+2018-02-28 07:46:07 +0000  1418 bytes for ./Payload/Kotak Wealth Watch App.app/logout_icon.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/maruti_suzuki_icon.png ... 
+2018-02-28 07:46:07 +0000  5978 bytes for ./Payload/Kotak Wealth Watch App.app/maruti_suzuki_icon.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/menu_icon.png ... 
+2018-02-28 07:46:07 +0000  114 bytes for ./Payload/Kotak Wealth Watch App.app/menu_icon.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/mywatch.png ... 
+2018-02-28 07:46:07 +0000  6300 bytes for ./Payload/Kotak Wealth Watch App.app/mywatch.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/name_icon.png ... 
+942 bytes for ./Payload/Kotak Wealth Watch App.app/name_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/ongc_icon.png ... 
+8419 bytes for ./Payload/Kotak Wealth Watch App.app/ongc_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/password_icon.png ... 
+2018-02-28 07:46:07 +0000  596 bytes for ./Payload/Kotak Wealth Watch App.app/password_icon.png
+copying file ./Payload/Kotak Wealth Watch App.app/PkgInfo ... 
+2018-02-28 07:46:07 +0000  8 bytes for ./Payload/Kotak Wealth Watch App.app/PkgInfo
+copying file ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/_CodeSignature/CodeResources ... 
+2018-02-28 07:46:07 +0000  2846 bytes for ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/_CodeSignature/CodeResources
+copying file ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/archived-expanded-entitlements.xcent ... 
+434 bytes for ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/archived-expanded-entitlements.xcent
+copying file ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/embedded.mobileprovision ... 
+2018-02-28 07:46:07 +0000  18711 bytes for ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/embedded.mobileprovision
+copying file ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/Info.plist ... 
+2018-02-28 07:46:07 +0000  986 bytes for ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/KWNotificationService ... 
+2018-02-28 07:46:07 +0000  144640 bytes for ./Payload/Kotak Wealth Watch App.app/PlugIns/KWNotificationService.appex/KWNotificationService
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/refresh.png ... 
+2018-02-28 07:46:07 +0000  8591 bytes for ./Payload/Kotak Wealth Watch App.app/refresh.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/register.png ... 
+2018-02-28 07:46:07 +0000  4657 bytes for ./Payload/Kotak Wealth Watch App.app/register.png
+copying file ./Payload/Kotak Wealth Watch App.app/tata.png ... 
+3488 bytes for ./Payload/Kotak Wealth Watch App.app/tata.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_CodeSignature/CodeResources ... 
+8339 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_CodeSignature/CodeResources
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK ... 
+42960 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/_WatchKitStub/WK
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon24x24@2x.png ... 
+4902 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon24x24@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon27.5x27.5@2x.png ... 
+5884 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon27.5x27.5@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@2x.png ... 
+6261 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@3x.png ... 
+12215 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon29x29@3x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon40x40@2x.png ... 
+10629 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon40x40@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon86x86@2x.png ... 
+38334 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon86x86@2x.png
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon98x98@2x.png ... 
+2018-02-28 07:46:07 +0000  48026 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/AppIcon98x98@2x.png
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/archived-expanded-entitlements.xcent ... 
+444 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Assets.car ... 
+2018-02-28 07:46:07 +0000  148520 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Assets.car
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface-notification.plist ... 
+2018-02-28 07:46:07 +0000  463 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface-notification.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface.plist ... 
+613 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Base.lproj/Interface.plist
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/embedded.mobileprovision ... 
+2018-02-28 07:46:07 +0000  18711 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/embedded.mobileprovision
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Info.plist ... 
+2018-02-28 07:46:07 +0000  1207 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Kotak Wealth Watch App WatchKit App ... 
+43904 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/Kotak Wealth Watch App WatchKit App
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PkgInfo ... 
+8 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PkgInfo
+2018-02-28 07:46:07 +0000  copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/_CodeSignature/CodeResources ... 
+2846 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/_CodeSignature/CodeResources
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/archived-expanded-entitlements.xcent ... 
+2018-02-28 07:46:07 +0000  480 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/archived-expanded-entitlements.xcent
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/embedded.mobileprovision ... 
+2018-02-28 07:46:07 +0000  18711 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/embedded.mobileprovision
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Info.plist ... 
+2018-02-28 07:46:07 +0000  1448 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Info.plist
+copying file ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension ... 
+2018-02-28 07:46:07 +0000  63056 bytes for ./Payload/Kotak Wealth Watch App.app/Watch/Kotak Wealth Watch App WatchKit App.app/PlugIns/Kotak Wealth Watch App WatchKit Extension.appex/Kotak Wealth Watch App WatchKit Extension
+2018-02-28 07:46:07 +0000  /usr/bin/ditto exited with 0
+2018-02-28 07:46:07 +0000  Processing step: IDEDistributionCreateManifestStep

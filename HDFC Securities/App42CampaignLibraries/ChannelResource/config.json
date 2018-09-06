@@ -1,0 +1,73 @@
+{
+    "success": true,
+    "campaigns": [
+        {
+            "startDate": "2016-02-23T05:30:00.000Z",
+            "frequency": {
+                "value": "111111111",
+                "type": "Daily"
+            },
+            "campaignName": "DemoRajeev",
+            "when": {
+                "events": [
+                    "GEOCAMP"
+                ]
+            },
+            "endDate": "2016-02-29T05:30:00.000Z",
+            "what": {
+                "type": "Custom",
+                "content": {
+                    "couponCode": "",
+                    "backgroundImage": "default.jpg",
+                    "iconImage": "icon_DemoRajeev",
+                    "layoutGravity": "center",
+                    "layoutType": "centerImage",
+                    "backColor": "#ffffff",
+                    "customTitle": {
+                        "text": "Header Text Goes Here",
+                        "color": "#333333",
+                        "size": "14px",
+                        "style": "Arial"
+                    },
+                    "message1": {
+                        "text": "Text for line 1 goes here",
+                        "color": "#00978b",
+                        "size": "14px",
+                        "style": "Arial"
+                    },
+                    "message2": {
+                        "text": "Text for line 2 goes here",
+                        "color": "#00978b",
+                        "size": "14px",
+                        "style": "Arial"
+                    },
+                    "message3": {
+                        "text": "Text for line 3 goes here",
+                        "color": "#00978b",
+                        "size": "14px",
+                        "style": "Arial"
+                    },
+                    "crossStatus": "Manual",
+                    "autoTimeOut": 0,
+                    "roundedCorner": true
+                }
+            },
+            "locations": {},
+            "superProperties": {},
+            "installProperties": {}
+        }
+    ],
+    "downloads": [
+        {
+            "imageName": "default.jpg",
+            "imageURL": "null"
+        },
+        {
+            "imageName": "icon_DemoRajeev",
+            "imageURL": null
+        }
+    ],
+    "priorities": [
+        "DemoRajeev"
+    ]
+}

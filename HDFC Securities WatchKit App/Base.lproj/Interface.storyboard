@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="il1-qx-FQC">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--myPortfolio-->
+        <scene sceneID="qg4-Ow-0WG">
+            <objects>
+                <controller identifier="myPortfolio" id="il1-qx-FQC" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="xCh-dp-ufC">
+                            <items>
+                                <tableRow identifier="row" id="oHd-Ut-qJ1" customClass="TableRowController">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" spacing="0.0" id="Jgt-Vy-vNg">
+                                        <items>
+                                            <label width="1" alignment="left" text="Label" id="cFj-QD-J0t">
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
+                                            <label width="1" alignment="left" text="Label" id="LZH-Kt-wQY">
+                                                <fontDescription key="font" type="system" pointSize="7"/>
+                                            </label>
+                                            <label width="1" alignment="left" text="Label" id="02u-gP-cGM">
+                                                <fontDescription key="font" type="system" pointSize="13"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="ratesLabel" destination="LZH-Kt-wQY" id="QDb-a9-blQ"/>
+                                        <outlet property="titleLabel" destination="cFj-QD-J0t" id="4rJ-wH-XVh"/>
+                                        <outlet property="valueLabel" destination="02u-gP-cGM" id="Xtn-VW-ylj"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="portfolioTable" destination="xCh-dp-ufC" id="TDH-kC-zg6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="308" y="293"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="paN-KB-0mD">
+            <objects>
+                <controller id="X9b-fe-YHC">
+                    <items>
+                        <group width="1" height="112" alignment="left" layout="vertical" id="8xP-9f-rTi">
+                            <items>
+                                <label width="136" alignment="left" text="Label" textAlignment="center" id="QgX-Sw-1al"/>
+                                <label width="136" height="40" alignment="left" text="Label" textAlignment="center" numberOfLines="0" id="LWF-1t-696"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="564" y="311"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" type="system" weight="light" pointSize="15"/>
+                        </label>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sashColor" red="0.8901960784313725" green="0.0039215686274509803" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" red="0.92549019607843142" green="0.92156862745098034" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="7fE-xJ-0r1" kind="relationship" relationship="dynamicNotificationInterface" id="xZF-Xd-Wgd"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Dynamic Notification Interface Controller-->
+        <scene sceneID="ogJ-yL-1fy">
+            <objects>
+                <controller id="7fE-xJ-0r1">
+                    <color key="backgroundColor" red="0.89019607840000003" green="0.0039215686269999999" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="520" y="643"/>
+        </scene>
+    </scenes>
+</document>
